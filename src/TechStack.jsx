@@ -46,7 +46,7 @@ function TechStack() {
             </div>
         </div>
         <div className="whoami">
-            <h5>b3rl1n@kali-temple ~ $ whoami</h5>
+            <h5>b3rl1n@kali ~ $ whoami</h5>
             <p>
                 Jhon Aldrix Bernil | b3rl1n | PH 
             </p>
