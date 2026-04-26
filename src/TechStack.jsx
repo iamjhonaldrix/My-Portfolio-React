@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function CyberPortfolio() {
+function TechStack() {
   return (
     <div className="tech-stacks">
       <div className="mystack">
@@ -10,32 +10,12 @@ function CyberPortfolio() {
         </div>
 
         <div className="category">
-          <h3>Offensive Security</h3>
+          <h3>Skills</h3>
           <div className="skills">
-            <span>Ethical Hacking Basics</span>
-            <span>Penetration Testing</span>
-            <span>Web App Security</span>
-            <span>CTF Challenges</span>
-          </div>
-        </div>
-
-        <div className="category">
-          <h3>Defensive Security</h3>
-          <div className="skills">
-            <span>Threat Detection</span>
-            <span>Log Analysis</span>
-            <span>System Hardening</span>
-            <span>Incident Response</span>
-          </div>
-        </div>
-
-        <div className="category">
-          <h3>Networking & Systems</h3>
-          <div className="skills">
-            <span>TCP/IP</span>
-            <span>Network Scanning</span>
-            <span>Linux Administration</span>
-            <span>Windows Security Basics</span>
+            <span>Basic Ethical Hacking</span>
+            <span>Networking Basics</span>
+            <span>Linux Basics</span>
+            <span>CTF Practice</span>
           </div>
         </div>
 
@@ -46,17 +26,15 @@ function CyberPortfolio() {
             <span>Nmap</span>
             <span>Wireshark</span>
             <span>Burp Suite</span>
-            <span>Metasploit</span>
-            <span>Git & GitHub</span>
+            <span>GitHub</span>
           </div>
         </div>
 
         <div className="category">
-          <h3>Programming & Scripting</h3>
+          <h3>Programming</h3>
           <div className="skills">
-            <span>Python</span>
-            <span>Bash</span>
-            <span>JavaScript</span>
+            <span>Python (Basic)</span>
+            <span>JavaScript (Basic)</span>
           </div>
         </div>
       </div>
@@ -65,30 +43,21 @@ function CyberPortfolio() {
         <h5>b3rl1n@kali ~ $ whoami</h5>
         <br />
 
-        <p>
-          Jhon Aldrix Bernil | b3rl1n | PH<br /><br />
-        </p>
+        <p>Jhon Aldrix Bernil | b3rl1n | PH</p>
+        <br />
+
+        <p>Polytechnic University of the Philippines</p>
+        <br />
 
         <p>
-          Polytechnic University of the Philippines<br /><br />
+          IT student learning cybersecurity, networking, and ethical hacking.
+          I am still a beginner, but I am practicing through CTFs and labs to improve my skills.
         </p>
 
-        <p>
-          Cybersecurity student focused on ethical hacking, penetration testing,
-          and defensive security practices.<br /><br />
-
-          Actively learning through CTFs, labs (TryHackMe / Hack The Box style environments),
-          and real-world security concepts.<br /><br />
-
-          Passionate about understanding how systems break — and how to secure them.
-        </p>
-
-        <p>
-          Member of A1SBERG cybersecurity community.
-        </p>
+        <p>A1SBERG cybersecurity organization member.</p>
       </div>
     </div>
   );
 }
 
-export default CyberPortfolio;
+export default TechStack
