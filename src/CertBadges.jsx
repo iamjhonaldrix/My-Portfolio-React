@@ -3,10 +3,17 @@ import { Link } from "react-router-dom";
 function CertBadges() {
   const certs = [
     {
+      title: "Introduction to Cybersecurity",
+      issuer: "Cisco Networking Academy",
+      year: "2026",
+      img: "/image/badges/introduction-to-cybersecurity.png",
+      pdf: "/certificates/intro_to_cybersecurity.pdf",
+    },
+    {
       title: "Python Essentials 1",
       issuer: "Cisco Networking Academy",
       year: "2026",
-      img: "/image/python-essentials-1.1.png",
+      img: "/image/badges/python-essentials-1.1.png",
       pdf: "/certificates/python-essentials-1.pdf",
     },
   ];
